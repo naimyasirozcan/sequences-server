@@ -34,17 +34,14 @@ const storage = new CloudinaryStorage({
 
 const upload = multer({ storage: storage })
 
-// other configs 
+// creating setting json server 
 
 const server = jsonServer.create()
-
 const middlewares = jsonServer.defaults()
-
 server.use(middlewares)
 
-const routes = jsonServer.router("db.json")
 
-server.use(routes)
+
 
 // setting an endpoint (/upload)
 
@@ -53,7 +50,7 @@ server.post('/upload', upload.single('image'), (req, res) => {
   // if there is a problem with file upload:
   
   // (req represents all info comes from client as request, req.file is the file that we wanted to post to thi end point .)
-
+  
   // (res represents all info goest to client as response, client can reach res.json by using res.data)
   try {
     if (!req.file) { //req,file representes the file that we converted to formData and sent there
@@ -62,10 +59,10 @@ server.post('/upload', upload.single('image'), (req, res) => {
         error: 'file is not uploaded succesfully' 
       })
     }
-
+    
     //note: headers {contenttype : bla blabla } indicates the type of the data that you created on client side and set as a formData, it can be boundary multiple/dorm-data or other things, images counts multiple/form-data, this info requires to be parsed and solved but axious and multer does it automaticaly
     
-
+    
     res.json({
       success: true,
       imageUrl: req.file.path  // we send these properties with res.json, then client can reach these info via res.data.imageUrl
@@ -79,10 +76,13 @@ server.post('/upload', upload.single('image'), (req, res) => {
   }
 })
 
+// json server router, comes after our endpoint because other way around it trys to catch and listen and return error first 
+
+const routes = jsonServer.router("db.json")
+server.use(routes)
 
 
-
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5005
 
 server.listen(PORT, () => {
     console.log(`server active and listening on port: ${PORT}`)

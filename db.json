@@ -373,6 +373,34 @@
           "date": "2025-11-10"
         }
       ]
+    },
+    {
+      "creationDate": "2025-11-12",
+      "eventDate": "2026-06-06",
+      "image": "https://res.cloudinary.com/dq7qhhd0l/image/upload/v1762968309/sequences/gepcrh2oargqnysibqbe.jpg",
+      "title": "perfectoluque",
+      "triggerId": "7",
+      "summary": "goooooooooooddd",
+      "emotionId": "4",
+      "emotionPolarity": "5",
+      "emotionIntensity": "10",
+      "thought": {
+        "content": "WOOAAAAWWWWWWWWW",
+        "polarity": "5",
+        "intensity": "10"
+      },
+      "behavior": {
+        "content": "JUMPED AND LAUGHED AND EUPHORIA AND NIRVANA",
+        "polarity": "5",
+        "impact": "10"
+      },
+      "notes": [
+        {
+          "content": "ALL IS GOOD LIFE IS GOOD",
+          "date": "2025-11-12"
+        }
+      ],
+      "id": 11
     }
   ]
 }
