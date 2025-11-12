@@ -1,0 +1,378 @@
+{
+  "emotions": [
+    {
+      "id": 1,
+      "name": "Joy",
+      "description": "A positive high-arousal emotion signaling reward, safety, and social connection. Involves dopamine and endorphin release, activates the ventral striatum and prefrontal cortex, promoting motivation and approach behavior."
+    },
+    {
+      "id": 2,
+      "name": "Trust",
+      "description": "Emotion of psychological safety and attachment. Mediated by oxytocin and serotonin, activates prefrontal and anterior cingulate regions, supports bonding, empathy, and cooperation."
+    },
+    {
+      "id": 3,
+      "name": "Fear",
+      "description": "Triggered by threat or danger. Activates the amygdala, hypothalamus, and sympathetic nervous system, releasing adrenaline and noradrenaline, preparing the body for fight-or-flight response."
+    },
+    {
+      "id": 4,
+      "name": "Surprise",
+      "description": "A brief startle response to unexpected stimuli. Involves the amygdala and parietal cortex, momentarily increases attention and cognitive flexibility for rapid situational reassessment."
+    },
+    {
+      "id": 5,
+      "name": "Sadness",
+      "description": "Response to loss or disappointment. Decreases dopamine and serotonin activity, heightens right prefrontal and amygdala activation, encouraging reflection and social support seeking."
+    },
+    {
+      "id": 6,
+      "name": "Disgust",
+      "description": "Reaction to contamination or moral violation. Activates the insular cortex, reduces parasympathetic tone, elicits withdrawal behavior and avoidance of harmful stimuli."
+    },
+    {
+      "id": 7,
+      "name": "Anger",
+      "description": "Response to perceived injustice or obstacle. Engages amygdala, hypothalamus, and orbitofrontal cortex, increases adrenaline and cortisol, mobilizing energy for confrontation or correction."
+    },
+    {
+      "id": 8,
+      "name": "Anticipation",
+      "description": "Forward-looking emotional state tied to prediction and planning. Involves dopamine circuits of the nucleus accumbens and prefrontal cortex, enhancing motivation and goal-directed behavior."
+    }
+  ],
+  "triggers": [
+    {
+      "id": 1,
+      "name": "Life Event",
+      "description": "Significant occurrences in daily life, such as births, deaths, or major life changes."
+    },
+    {
+      "id": 2,
+      "name": "Social Interaction",
+      "description": "Encounters with other people including arguments, compliments, or meeting new individuals."
+    },
+    {
+      "id": 3,
+      "name": "Achievement",
+      "description": "Accomplishments or completed goals that can influence mood and behavior."
+    },
+    {
+      "id": 4,
+      "name": "Setback",
+      "description": "Obstacles, failures, or frustrations that may affect actions and thoughts."
+    },
+    {
+      "id": 5,
+      "name": "Financial Status",
+      "description": "Situations related to personal financial state, budgeting, or income levels."
+    },
+    {
+      "id": 6,
+      "name": "New Experience",
+      "description": "Novel events such as meeting someone new, traveling, or trying a new activity."
+    },
+    {
+      "id": 7,
+      "name": "Rumor / News",
+      "description": "Information received from others, gossip, or news that affects thoughts or emotions."
+    },
+    {
+      "id": 8,
+      "name": "Chance / Coincidence",
+      "description": "Unexpected events, serendipity, or random encounters that impact mood or decisions."
+    },
+    {
+      "id": 9,
+      "name": "Responsibility",
+      "description": "Obligations in studies, work, or personal relationships that create pressure or require attention."
+    },
+    {
+      "id": 10,
+      "name": "Health",
+      "description": "Physical or mental health conditions that influence mood, energy, and overall emotional state."
+    }
+  ],
+  "sequences": [
+    {
+      "id": 1,
+      "creationDate": "2025-11-01",
+      "eventDate": "2025-11-01",
+      "image": "https://placehold.co/400x300?text=Morning+Walk",
+      "title": "Morning Walk Calmness",
+      "triggerId": 10,
+      "summary": "Went for a morning walk and felt peaceful anticipation for the day.",
+      "emotionId": 8,
+      "emotionPolarity": 5,
+      "emotionIntensity": 6,
+      "thought": {
+        "content": "This day might go well.",
+        "polarity": 5,
+        "intensity": 6
+      },
+      "behavior": {
+        "content": "Walked 30 minutes before breakfast.",
+        "polarity": 5,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Felt motivated afterward.",
+          "date": "2025-11-01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "creationDate": "2025-11-02",
+      "eventDate": "2025-11-02",
+      "image": "https://placehold.co/400x300?text=Missed+Deadline",
+      "title": "Missed Assignment Deadline",
+      "triggerId": 4,
+      "summary": "Missed a project submission and felt a wave of sadness and frustration.",
+      "emotionId": 5,
+      "emotionPolarity": -5,
+      "emotionIntensity": 8,
+      "thought": {
+        "content": "I should have managed my time better.",
+        "polarity": -5,
+        "intensity": 8
+      },
+      "behavior": {
+        "content": "Took a break to reflect before contacting the instructor.",
+        "polarity": -2,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Will plan deadlines earlier next time.",
+          "date": "2025-11-02"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "creationDate": "2025-11-03",
+      "eventDate": "2025-11-03",
+      "image": "https://placehold.co/400x300?text=Exam+Prep",
+      "title": "Pre-Exam Fear",
+      "triggerId": 9,
+      "summary": "Felt fear about the upcoming test despite preparation.",
+      "emotionId": 3,
+      "emotionPolarity": -4,
+      "emotionIntensity": 9,
+      "thought": {
+        "content": "What if I fail even after studying?",
+        "polarity": -4,
+        "intensity": 9
+      },
+      "behavior": {
+        "content": "Practiced breathing exercises to calm nerves.",
+        "polarity": -2,
+        "impact": 7
+      },
+      "notes": [
+        {
+          "content": "Calmed down after a short break.",
+          "date": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "creationDate": "2025-11-04",
+      "eventDate": "2025-11-04",
+      "image": "https://placehold.co/400x300?text=Friend+Call",
+      "title": "Unexpected Call from Friend",
+      "triggerId": 2,
+      "summary": "Surprised by a friend’s spontaneous call which lifted mood.",
+      "emotionId": 4,
+      "emotionPolarity": 4,
+      "emotionIntensity": 6,
+      "thought": {
+        "content": "Didn’t expect this but it made me happy.",
+        "polarity": 4,
+        "intensity": 6
+      },
+      "behavior": {
+        "content": "Talked for 15 minutes and felt energized.",
+        "polarity": 4,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Should reach out to friends more often.",
+          "date": "2025-11-04"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "creationDate": "2025-11-05",
+      "eventDate": "2025-11-05",
+      "image": "https://placehold.co/400x300?text=Teamwork",
+      "title": "Teamwork and Cooperation",
+      "triggerId": 2,
+      "summary": "Collaborated smoothly with classmates and felt strong trust.",
+      "emotionId": 2,
+      "emotionPolarity": 5,
+      "emotionIntensity": 7,
+      "thought": {
+        "content": "Working together feels easier than alone.",
+        "polarity": 5,
+        "intensity": 7
+      },
+      "behavior": {
+        "content": "Delegated tasks and supported teammates.",
+        "polarity": 5,
+        "impact": 8
+      },
+      "notes": [
+        {
+          "content": "Plan to keep this group dynamic.",
+          "date": "2025-11-05"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "creationDate": "2025-11-06",
+      "eventDate": "2025-11-06",
+      "image": "https://placehold.co/400x300?text=Argument",
+      "title": "Argument at Home",
+      "triggerId": 2,
+      "summary": "Felt anger during a disagreement about chores.",
+      "emotionId": 7,
+      "emotionPolarity": -5,
+      "emotionIntensity": 8,
+      "thought": {
+        "content": "I’m tired of always reminding others.",
+        "polarity": -5,
+        "intensity": 8
+      },
+      "behavior": {
+        "content": "Raised voice but later apologized.",
+        "polarity": -3,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Need to express frustration calmly next time.",
+          "date": "2025-11-06"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "creationDate": "2025-11-07",
+      "eventDate": "2025-11-07",
+      "image": "https://placehold.co/400x300?text=Clean+Room",
+      "title": "Cleaning Motivation",
+      "triggerId": 9,
+      "summary": "Organized workspace and felt joy afterward.",
+      "emotionId": 1,
+      "emotionPolarity": 5,
+      "emotionIntensity": 8,
+      "thought": {
+        "content": "I feel better in a clean environment.",
+        "polarity": 5,
+        "intensity": 8
+      },
+      "behavior": {
+        "content": "Cleaned and rearranged desk area.",
+        "polarity": 5,
+        "impact": 7
+      },
+      "notes": [
+        {
+          "content": "Environment affects focus positively.",
+          "date": "2025-11-07"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "creationDate": "2025-11-08",
+      "eventDate": "2025-11-08",
+      "image": "https://placehold.co/400x300?text=Spoiled+Food",
+      "title": "Spoiled Food Reaction",
+      "triggerId": 1,
+      "summary": "Ate spoiled food by mistake and felt disgust.",
+      "emotionId": 6,
+      "emotionPolarity": -5,
+      "emotionIntensity": 8,
+      "thought": {
+        "content": "This smell is unbearable.",
+        "polarity": -5,
+        "intensity": 8
+      },
+      "behavior": {
+        "content": "Threw it away immediately and cleaned up.",
+        "polarity": -3,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Will check expiration dates more carefully.",
+          "date": "2025-11-08"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "creationDate": "2025-11-09",
+      "eventDate": "2025-11-09",
+      "image": "https://placehold.co/400x300?text=Good+News",
+      "title": "Good News from a Friend",
+      "triggerId": 7,
+      "summary": "Heard uplifting news about a friend's success and felt joyful surprise.",
+      "emotionId": 4,
+      "emotionPolarity": 5,
+      "emotionIntensity": 7,
+      "thought": {
+        "content": "I’m so happy for them!",
+        "polarity": 5,
+        "intensity": 7
+      },
+      "behavior": {
+        "content": "Sent congratulations message immediately.",
+        "polarity": 5,
+        "impact": 7
+      },
+      "notes": [
+        {
+          "content": "Celebrated their achievement later.",
+          "date": "2025-11-09"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "creationDate": "2025-11-10",
+      "eventDate": "2025-11-10",
+      "image": "https://placehold.co/400x300?text=Future+Plans",
+      "title": "Planning Next Week",
+      "triggerId": 9,
+      "summary": "Planned next week’s tasks and felt anticipation about upcoming opportunities.",
+      "emotionId": 8,
+      "emotionPolarity": 5,
+      "emotionIntensity": 6,
+      "thought": {
+        "content": "Next week might be productive.",
+        "polarity": 5,
+        "intensity": 6
+      },
+      "behavior": {
+        "content": "Created a detailed schedule for upcoming projects.",
+        "polarity": 5,
+        "impact": 6
+      },
+      "notes": [
+        {
+          "content": "Preparation reduced stress significantly.",
+          "date": "2025-11-10"
+        }
+      ]
+    }
+  ]
+}
