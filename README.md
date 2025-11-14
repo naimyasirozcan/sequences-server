@@ -90,6 +90,6 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 
 ### Slides
 
-[Slides Link](www.your-slides-url-here.com)
+[Slides Link](https://drive.google.com/file/d/1wCI5JwQx58febHmyuF0_9TlXU2LKUF-r/view?usp=sharing)
 
 ![App Logo](https://res.cloudinary.com/dq7qhhd0l/image/upload/v1763081748/logo_rwc08z.png)
