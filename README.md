@@ -91,3 +91,5 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 ### Slides
 
 [Slides Link](www.your-slides-url-here.com)
+
+![App Logo](https://res.cloudinary.com/dq7qhhd0l/image/upload/v1763081748/logo_rwc08z.png)
